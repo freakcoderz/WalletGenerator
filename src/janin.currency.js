@@ -69,18 +69,6 @@ janin.currency = {
         document.getElementById("bulktextarea").value = "";
         document.getElementById("suppliedPrivateKey").value = "";
 
-        // easter egg doge ;)
-        if(janin.currency.name() == "Dogecoin")
-        {
-            janin.doge = new Doge(['wow', 'so paper wallet', 'such random', 'very pretty', 'much design', 'awesome', 'much crypto', 'such coin', 'wow!!', 'to da moon']);
-            return;
-        }
-
-        if(janin.doge != null)
-        {
-            janin.doge.stop();
-            janin.doge = null;
-        }
     },
 };
 
@@ -88,6 +76,7 @@ janin.currencies = [
     //                              name, 		networkVersion, privateKeyPrefix, WIF_Start, CWIF_Start, donate
     janin.currency.createCurrency ("Aevo",                0x17, 0x99, "6",    "P"     , "AT5yCTxC5DEfhCtcGNHRAHn1cZFkhUX8LC"),
 	janin.currency.createCurrency ("Astra",               0x17, 0x53, "3",    "D"    , "AXPXaMUwf865QQW4rT8c1rAVdd1ZFnHK4p"),
+	janin.currency.createCurrency ("Bitcoin",             0x00, 0x80, "5",    "[LK]" , "1YYTXP6P6dUz1EuPQdeKaEkwqLWsA4W6Y"),
 	janin.currency.createCurrency ("DRV",                 0x1e, 0x31, "2",    "8"    , "DRJk49h5EokywYd1g2bPy8qaFsQwCxFnA1"),
 	janin.currency.createCurrency ("GloveCoin",		      0x26, 0xa6, "6",    "R"    , "GNrcVpLy6GmuMGwLhfJp4ZFDntFWAFbdVH"),
                    ];
