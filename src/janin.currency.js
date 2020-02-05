@@ -80,6 +80,7 @@ janin.currencies = [
 	janin.currency.createCurrency ("DRV",                 0x1e, 0x31, "2",    "8"    , "DRJk49h5EokywYd1g2bPy8qaFsQwCxFnA1"),
 	janin.currency.createCurrency ("DRVF",                0x1f, 0xc1, "7",    "V"    , "DakS6tdK3TpoVJF9CB4mCmsC2AXYnJgnat"),
 	janin.currency.createCurrency ("GloveCoin",		      0x26, 0xa6, "6",    "R"    , "GNrcVpLy6GmuMGwLhfJp4ZFDntFWAFbdVH"),
+	janin.currency.createCurrency ("MentX",		          0x6e, 0xee, "[89]", "c"    , "mSpdP2wGUEcQ6k7QiGsofp61heWQ8msk5t"),
 	janin.currency.createCurrency ("SHMN",		      	  0x32, 0xd4, "8",    "Y"    , "MJ3tdcCkTmxjWYwQkcEdket9q2i7xhqwVx"),
 	janin.currency.createCurrency ("Stronghands",		  0x3f, 0xbf, "7",    "V"    , "Sc6P7U3kwru3rNYgLo42WyBb5onsMq1s9t"),
                    ];
