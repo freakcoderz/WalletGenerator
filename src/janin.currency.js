@@ -78,6 +78,7 @@ janin.currencies = [
 	janin.currency.createCurrency ("Bitcoin",             0x00, 0x80, "5",    "[LK]" , "1YYTXP6P6dUz1EuPQdeKaEkwqLWsA4W6Y"),
 	janin.currency.createCurrency ("DRV",                 0x1e, 0x31, "2",    "8"    , "DRJk49h5EokywYd1g2bPy8qaFsQwCxFnA1"),
 	janin.currency.createCurrency ("DRVF",                0x1f, 0xc1, "7",    "V"    , "DakS6tdK3TpoVJF9CB4mCmsC2AXYnJgnat"),
+	janin.currency.createCurrency ("Empower",                0x21, 0xc7, "7",    "W"    , "Eg8Y36jozqoWrUHHyoBVJztHPJDpogWYR9"),
 	janin.currency.createCurrency ("freakchain",         0x23, 0xa3, "6",    "R"    , "FRFn5TVexVaMr93cyTw4Zor3ACWS6AbpiZ"),
 	janin.currency.createCurrency ("MentX",		          0x6e, 0xee, "[89]", "c"    , "XT8bihkXdrsuDMXkPvzMSj3RKC7fbe7D9o"),
 	janin.currency.createCurrency ("Omen",                 0x35, 0xb5, "7",    "T"    , "NUiNRpQZQL4c5QuGNBA9yJsfr3cFU2vdCa"),
