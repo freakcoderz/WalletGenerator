@@ -74,14 +74,14 @@ janin.currency = {
 
 janin.currencies = [
     //                              name, 		networkVersion, privateKeyPrefix, WIF_Start, CWIF_Start, donate
-    janin.currency.createCurrency ("Aevo",                0x17, 0x99, "6",    "P"    , "AT5yCTxC5DEfhCtcGNHRAHn1cZFkhUX8LC"),
-	janin.currency.createCurrency ("Bitcoin",             0x00, 0x80, "5",    "[LK]" , "1YYTXP6P6dUz1EuPQdeKaEkwqLWsA4W6Y"),
-	janin.currency.createCurrency ("DRV",                 0x1e, 0x31, "2",    "8"    , "DRJk49h5EokywYd1g2bPy8qaFsQwCxFnA1"),
-	janin.currency.createCurrency ("DRVF",                0x1f, 0xc1, "7",    "V"    , "DakS6tdK3TpoVJF9CB4mCmsC2AXYnJgnat"),
-	janin.currency.createCurrency ("Empower",                0x21, 0xc7, "7",    "W"    , "Eg8Y36jozqoWrUHHyoBVJztHPJDpogWYR9"),
-	janin.currency.createCurrency ("freakchain",         0x23, 0xa3, "6",    "R"    , "FRFn5TVexVaMr93cyTw4Zor3ACWS6AbpiZ"),
-	janin.currency.createCurrency ("MentX",		          0x6e, 0xee, "[89]", "c"    , "XT8bihkXdrsuDMXkPvzMSj3RKC7fbe7D9o"),
-	janin.currency.createCurrency ("Omen",                 0x35, 0xb5, "7",    "T"    , "NUiNRpQZQL4c5QuGNBA9yJsfr3cFU2vdCa"),
-	janin.currency.createCurrency ("SHMN",		      	  0x32, 0xd4, "8",    "Y"    , "MJ3tdcCkTmxjWYwQkcEdket9q2i7xhqwVx"),
-	janin.currency.createCurrency ("Stronghands",		  0x3f, 0xbf, "7",    "V"    , "Sc6P7U3kwru3rNYgLo42WyBb5onsMq1s9t"),
+    janin.currency.createCurrency ("Aevo",                0x17, 0x99, "6",    "P"    , ""),
+	janin.currency.createCurrency ("Bitcoin",             0x00, 0x80, "5",    "[LK]" , ""),
+	janin.currency.createCurrency ("DRV",                 0x1e, 0x31, "2",    "8"    , ""),
+	janin.currency.createCurrency ("DRVF",                0x1f, 0xc1, "7",    "V"    , ""),
+	janin.currency.createCurrency ("Empower",                0x21, 0xc7, "7",    "W"    , ""),
+	janin.currency.createCurrency ("freakchain",         0x23, 0xa3, "6",    "R"    , ""),
+	janin.currency.createCurrency ("MentX",		           0x4b, 0xcb, "7", "X"    , ""),
+	janin.currency.createCurrency ("Omen",                 0x35, 0xb5, "7",    "T"    , ""),
+	janin.currency.createCurrency ("SHMN",		      	  0x32, 0xd4, "8",    "Y"    , ""),
+	janin.currency.createCurrency ("Stronghands",		  0x3f, 0xbf, "7",    "V"    , ""),
                    ];
